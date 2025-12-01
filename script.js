@@ -1,5 +1,5 @@
 (() => {
-  const KEY = ""; /*Your open AI key here*/
+  const KEY = "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"; /*Your open AI key here*/
 const types = ["single", "double", "multi", "antonym", "synonym"];
 const questionPrompt = [
   "\nThe answer choices are as follows. Please choose only the letter associated with the answer and please keep it to one character: \n",
@@ -268,5 +268,6 @@ function Answer(answer) {
 
 builder();
 })();
+
 
 
